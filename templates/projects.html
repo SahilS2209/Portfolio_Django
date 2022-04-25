@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/projects">Projects</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container my-3">
+        <div class="shadow-lg p-3 mb-5 mt-5 bg-white rounded">
+        <h3 class="text-center my-2 py-2">My Projects</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="/static/proj_pic_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Text Analyzer</h5>
+                        <p class="card-text">Created a text analyzer website in Django which accepts any form of text
+                            filtered or unfiltered and performs a certain text operations such as
+                            remove punctuation marks, capitalize every letter etc. Used bootstrap for frontend.</p>
+                        <a href="https://github.com/SahilS2209/Text_Analyzer" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="/static/proj_pic_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">To Do App</h5>
+                        <p class="card-text">Created a todo app using Django web framework where user can
+                            add, retrieve and delete tasks. Used Postgresql DB for storage and
+                            retrieval of tasks.</p>
+                        <a href="https://github.com/SahilS2209/Todo_App_Django" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="/static/proj_pic_3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Django Blog</h5>
+                        <p class="card-text">Created a blog application in Django where user can add posts, delete posts and
+                            also have added a comments section where user can add and delete the
+                            comments.</p>
+                        <a href="https://github.com/SahilS2209/Django-Blog" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-light bg-dark py-1 position-relative fixed-bottom">Copyright &copy; Sahil Shrivastav | All rights reserved.</footer>
+
+</body>
+
+</html>
